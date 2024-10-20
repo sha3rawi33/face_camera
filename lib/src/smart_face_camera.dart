@@ -190,7 +190,7 @@ class _SmartFaceCameraState extends State<SmartFaceCamera>
                 alignment: Alignment.bottomCenter,
                 child: Padding(
                   padding: const EdgeInsets.all(15.0),
-                  child: Row(
+                  child: Column(
                     mainAxisSize: MainAxisSize.min,
                     children: [
                       if (widget.showFlashControl) ...[
